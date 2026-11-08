@@ -29,6 +29,30 @@
   addEventListener('resize', update);
   update();
 
+  $$('[data-tabs]').forEach(box => {
+    const tabs = $$('[role=tab]', box);
+    const desc = document.createElement('p');
+    desc.className = 'tool-desc';
+    box.insertBefore(desc, $('.tool-shot', box));
+    const pick = t => {
+      tabs.forEach(b => {
+        const on = b === t;
+        b.setAttribute('aria-selected', String(on));
+        b.tabIndex = on ? 0 : -1;
+        document.getElementById(b.getAttribute('aria-controls')).hidden = !on;
+      });
+      desc.textContent = $('span', t).textContent;
+    };
+    tabs.forEach((b, i) => {
+      b.addEventListener('click', () => pick(b));
+      b.addEventListener('keydown', e => {
+        const d = e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : e.key === 'ArrowUp' || e.key === 'ArrowLeft' ? -1 : 0;
+        if (d) { e.preventDefault(); const n = tabs[(i + d + tabs.length) % tabs.length]; pick(n); n.focus(); }
+      });
+    });
+    pick(tabs[0]);
+  });
+
   const items = $$('.reveal');
   if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
     items.forEach(n => n.classList.add('in'));
