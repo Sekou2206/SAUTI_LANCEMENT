@@ -34,3 +34,4 @@ Les boutons de commande ouvrent pour l'instant un e-mail vers contact@agencysaut
 | inter-*.woff2 | Police Inter (SF Pro est utilisée sur Mac et iPhone) |
 | favicon.png, apple-touch-icon.png | Icônes |
 | outil-*.webp | Captures des outils (exemple fictif) affichées dans les onglets « Dans l’outil » et le parcours |
+| agent-*.webp | Captures de l’agent personal branding : entretien de départ, question de la semaine, journal |

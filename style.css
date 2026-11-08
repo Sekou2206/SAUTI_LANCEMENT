@@ -278,6 +278,16 @@ ul,ol{padding:0;list-style:none}
   .q-shot{grid-template-columns:1fr}
 }
 
+.agent-steps{margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--ink)}
+.agent-steps li{padding:24px 28px 0 0}
+.agent-steps b{display:block;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--paper)}
+.agent-steps strong{display:block;margin-top:10px;font-size:clamp(22px,2.2vw,28px);letter-spacing:-.035em;line-height:1.1}
+.agent-steps span{display:block;margin-top:10px;font-size:16px;line-height:1.5}
+.agent .tool{margin-top:64px}
+.agent .tool-label{color:var(--paper)}
+.agent .tool-tabs button[aria-selected=true]::before{background:var(--paper);border-color:var(--ink)}
+.agent .tool-tabs button:hover strong{color:var(--paper)}
+@media (max-width:900px){.agent-steps{grid-template-columns:1fr}.agent-steps li{padding:22px 0;border-bottom:1px solid var(--ink)}}
 .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
 .js .reveal.in{opacity:1;transform:none}
 
