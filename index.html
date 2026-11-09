@@ -3,43 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Anza, votre activité prête en un weekend</title>
-<meta name="description" content="Anza, un projet commun de SAUTI et SC Project : votre communication, vos clients et votre argent au même endroit, préremplis avec votre activité et prêts en un weekend. Trois formules, en France et en Côte d'Ivoire.">
+<title data-i18n="meta.title">Anza, plus de clients sans courir après</title>
+<meta name="description" content="Anza attire vos prospects, les range dans un vrai CRM et vous dit qui relancer. Avec Nia, votre brand manager. Dès 79 € + TVA, CRM inclus." data-i18n-content="meta.desc">
 <meta name="theme-color" content="#0A1020">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Anza, un projet SAUTI et SC Project">
-<meta property="og:description" content="Votre activité prête à tourner en un weekend : votre com, vos clients et votre argent, au même endroit.">
+<meta property="og:url" content="https://sekou2206.github.io/SAUTI_LANCEMENT/">
+<meta property="og:title" content="Anza, plus de clients sans courir après">
+<meta property="og:description" content="Un vrai CRM, des contenus à votre image et Nia, votre brand manager. Dès 79 € + TVA.">
+<meta property="og:image" content="https://sekou2206.github.io/SAUTI_LANCEMENT/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" as="font" type="font/woff2" href="inter-700.woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js')</script>
+<script src="i18n.js"></script>
 </head>
 <body>
-<a class="skip" href="#contenu">Aller au contenu</a>
+<a class="skip" href="#contenu" data-i18n="skip">Aller au contenu</a>
 
 <header class="nav" id="nav">
   <div class="nav-in">
-    <a class="brand" href="#top" aria-label="Anza, haut de page"><span class="wordmark">anza</span></a>
-    <span class="brand-tag">par SAUTI et SC Project</span>
-    <nav class="links" aria-label="Navigation principale">
-      <a href="#agent">Votre agent</a>
-      <a href="#pack">Les outils</a>
-      <a href="#exemple">Exemple</a>
-      <a href="#formules">Formules</a>
-      <a href="#questions">Questions</a>
+    <a class="brand" href="#top" aria-label="Anza, haut de page" data-i18n-aria-label="home.aria"><svg width="32" height="32" viewBox="56 50 288 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+<defs><mask id="nvm1" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="400"><rect width="400" height="400" fill="#fff"></rect><rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 116)" fill="#000" stroke="#000" stroke-width="16"></rect><rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 62)" fill="#000" stroke="#000" stroke-width="16"></rect></mask><mask id="nvm2" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="400"><rect width="400" height="400" fill="#fff"></rect><rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 62)" fill="#000" stroke="#000" stroke-width="16"></rect></mask></defs>
+<g mask="url(#nvm1)"><rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 170)" fill="#1E3A8A"></rect></g>
+<g mask="url(#nvm2)"><rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 116)" fill="#82A7FF"></rect></g>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 62)" fill="#2563EB"></rect>
+<g transform="matrix(0.866 0.5 -0.866 0.5 200 62)"><text x="76" y="118" text-anchor="middle" font-family="Inter" font-size="120" font-weight="800" fill="#FFFFFF" >a</text><circle cx="124" cy="40" r="11" fill="#FFFFFF"></circle></g>
+</svg><span class="wordmark">anza</span></a>
+    <span class="brand-tag" data-i18n="brand.tag">par SAUTI et SC Project</span>
+    <nav class="links" aria-label="Navigation principale" data-i18n-aria-label="nav.aria">
+      <a href="#crm" data-i18n="nav.crm">Le CRM</a>
+      <a href="#nia" data-i18n="nav.nia">Nia</a>
+      <a href="#outils" data-i18n="nav.tools">Les outils</a>
+      <a href="#formules" data-i18n="nav.plans">Formules</a>
+      <a href="#questions" data-i18n="nav.faq">Questions</a>
     </nav>
-    <a class="nav-cta" href="#formules">Choisir ma formule</a>
-    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><i></i><i></i></button>
+    <label class="lang nav-lang"><span class="sr" data-i18n="lang.label">Langue</span><select data-lang-select aria-label="Langue" data-i18n-aria-label="lang.label"><option value="fr">Français</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option><option value="de">Deutsch</option></select></label>
+    <a class="nav-cta" href="#formules" data-i18n="nav.cta">Choisir ma formule</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu" data-i18n-aria-label="menu.open"><i></i><i></i></button>
   </div>
 </header>
-<div class="menu" id="menu" aria-label="Menu">
-  <a href="#agent">Votre agent</a>
-  <a href="#pack">Les outils</a>
-  <a href="#exemple">Exemple</a>
-  <a href="#formules">Formules</a>
-  <a href="#questions">Questions</a>
-  <a class="menu-cta" href="#formules">Choisir ma formule</a>
+<div class="menu" id="menu">
+  <a href="#crm" data-i18n="nav.crm">Le CRM</a>
+  <a href="#nia" data-i18n="nav.nia">Nia</a>
+  <a href="#outils" data-i18n="nav.tools">Les outils</a>
+  <a href="#formules" data-i18n="nav.plans">Formules</a>
+  <a href="#questions" data-i18n="nav.faq">Questions</a>
+  <div class="menu-bot"><label class="lang menu-lang"><span class="sr" data-i18n="lang.label">Langue</span><select data-lang-select aria-label="Langue" data-i18n-aria-label="lang.label"><option value="fr">Français</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option><option value="de">Deutsch</option></select></label><a class="menu-cta" href="#formules" data-i18n="nav.cta">Choisir ma formule</a></div>
 </div>
 
 <main id="contenu">
@@ -47,26 +60,27 @@
   <section class="hero" id="top" data-nav="dark">
     <div class="wrap hero-grid">
       <div>
-        <p class="label">Anza, un projet commun SAUTI et SC Project</p>
-        <h1>Votre activité prête à tourner en un weekend<span class="dot" aria-hidden="true"></span></h1>
-        <p class="lead">Votre com, vos clients et votre argent, <b>au même endroit</b>. Préremplis avec votre activité, réglés sur votre ton.</p>
+        <p class="label" data-i18n="hero.label">Anza, un projet commun SAUTI et SC Project</p>
+        <h1><span data-i18n="hero.h1">Plus de clients, sans courir après</span><span class="dot" aria-hidden="true"></span></h1>
+        <p class="lead" data-i18n="hero.lead">Anza attire vos prospects avec des contenus à votre image, les range dans <b>un vrai CRM</b> et vous dit chaque jour qui relancer, quand et avec quel message.</p>
         <div class="hero-actions">
-          <a class="btn blue" href="#formules">Choisir ma formule</a>
-          <a class="more" href="#pack">Voir ce qu’il y a dedans</a>
+          <a class="btn blue" href="#formules" data-i18n="nav.cta">Choisir ma formule</a>
+          <a class="more" href="#crm" data-i18n="hero.more">Voir le CRM</a>
         </div>
-        <p class="hero-note">Dès 79 € en France, environ 25 000 FCFA en Côte d’Ivoire.</p>
+        <p class="hero-note" data-i18n="hero.note">Dès 79 € + TVA, une seule fois. CRM inclus dans toutes les formules.</p>
+        <ul class="chips"><li data-i18n="hero.chip1">CRM inclus</li><li data-i18n="hero.chip2">Prêt en un weekend</li><li data-i18n="hero.chip3">Accompagné par Nia, votre brand manager</li></ul>
       </div>
-      <div class="phones" aria-label="Aperçu d’Anza sur téléphone, exemple fictif">
+      <div class="phones" role="img" aria-label="Aperçu d’Anza sur téléphone, exemple fictif" data-i18n-aria-label="phones.aria">
         <div class="phone back" aria-hidden="true">
           <div class="screen dash">
-            <p class="dash-top"><span>Mon mois</span><b>Novembre</b></p>
-            <p class="dash-ca">Chiffre d’affaires<strong>1 240 €</strong></p>
+            <p class="dash-top"><span data-i18n="phone.month">Mon mois</span><b data-i18n="phone.nov">Novembre</b></p>
+            <p class="dash-ca"><span data-i18n="phone.ca">Chiffre d’affaires</span><strong data-i18n="pr.ca">1 240 €</strong></p>
             <div class="bars"><i style="height:38%"></i><i style="height:52%"></i><i style="height:45%"></i><i style="height:66%"></i><i style="height:74%"></i><i style="height:92%"></i></div>
-            <div class="dash-kpi"><div><strong>31</strong>clientes</div><div><strong>4</strong>devis en attente</div></div>
+            <div class="dash-kpi"><div><strong>31</strong><span data-i18n="phone.k1">clientes</span></div><div><strong>6</strong><span data-i18n="phone.k2">prospects à relancer</span></div></div>
             <ul class="dash-list">
-              <li><span>Inès K., pose complète</span><span>Payé</span></li>
-              <li><span>Mariam D., remplissage</span><span>Relance demain</span></li>
-              <li><span>Sarah L., avis 5 étoiles</span><span class="o">Story proposée</span></li>
+              <li><span data-i18n="phone.l1">Inès K., pose complète</span><span data-i18n="phone.s1">Payé</span></li>
+              <li><span data-i18n="phone.l2">Mariam D., devis envoyé</span><span data-i18n="phone.s2">Relance demain</span></li>
+              <li><span data-i18n="phone.l3">Sarah L., avis 5 étoiles</span><span class="o" data-i18n="phone.s3">Story proposée</span></li>
             </ul>
           </div>
         </div>
@@ -74,369 +88,266 @@
           <div class="screen story">
             <div class="story-bars"><i></i><i></i><i></i><i class="off"></i></div>
             <p class="story-who">awa.nails</p>
-            <p class="story-big">3 semaines après la pose, regarde.</p>
-            <p class="story-small">Gel tenue longue, zéro décollement. C’est ce qui fait revenir mes clientes.</p>
-            <p class="story-cta">Réserver ma pose</p>
+            <p class="story-big" data-i18n="story.big">3 semaines après la pose, regarde.</p>
+            <p class="story-small" data-i18n="story.small">Gel tenue longue, zéro décollement. C’est ce qui fait revenir mes clientes.</p>
+            <p class="story-cta" data-i18n="story.cta">Réserver ma pose</p>
           </div>
         </div>
-        <p class="phone-tag">Exemple fictif</p>
+        <p class="phone-tag" data-i18n="phone.tag">Exemple fictif</p>
       </div>
     </div>
   </section>
 
-  <section class="sec" data-nav="light" aria-labelledby="idee-t">
+  <section class="sec" data-nav="light" aria-labelledby="acq-t">
     <div class="wrap idea-grid">
       <div class="sec-head reveal">
-        <p class="label">L’idée</p>
-        <h2 id="idee-t">Le petit stand complet, prêt à devenir un magasin.</h2>
-        <p>Quand on se lance, on bricole : un compte Instagram d’un côté, des clients notés dans le téléphone, des factures dans un dossier. Anza réunit les trois bases du démarrage, déjà remplies avec votre activité, et les fait travailler ensemble.</p>
+        <p class="label" data-i18n="acq.label">Le vrai problème</p>
+        <h2 id="acq-t" data-i18n="acq.h2">Vous ne manquez pas de talent. Vous manquez de clients.</h2>
+        <p data-i18n="acq.p">Un message Instagram oublié, un devis jamais relancé, une cliente ravie qui ne laisse pas d’avis : chaque semaine, des ventes se perdent en silence. Anza transforme chaque contact en client suivi, et chaque client en nouvelle recommandation.</p>
       </div>
       <div class="reveal">
-        <p class="quote">« Pas un outil isolé : les trois bases du démarrage, déjà remplies avec votre activité et branchées sur votre propre IA. »<small>Notre approche</small></p>
-        <ol class="pillars-mini">
-          <li><b>01</b><strong>Se faire connaître</strong><span>Stories, posts, calendrier, charte.</span></li>
-          <li><b>02</b><strong>S’organiser</strong><span>Clients, devis, relances.</span></li>
-          <li><b>03</b><strong>Suivre son argent</strong><span>Tableau de bord et suivi de facturation.</span></li>
-        </ol>
+        <p class="quote"><span data-i18n="acq.quote">« Le client le plus facile à gagner, c’est celui qui vous a déjà écrit. »</span><small data-i18n="acq.qsmall">Notre approche</small></p>
       </div>
+      <ol class="pillars-mini funnel reveal">
+        <li><b>01</b><strong data-i18n="f1.t">Attirer</strong><span data-i18n="f1.d">Des stories et des posts qui donnent envie de vous écrire.</span></li>
+        <li><b>02</b><strong data-i18n="f2.t">Capter</strong><span data-i18n="f2.d">Chaque message, chaque demande entre dans votre CRM.</span></li>
+        <li><b>03</b><strong data-i18n="f3.t">Convertir</strong><span data-i18n="f3.d">Devis en 30 secondes, relances au bon moment, messages déjà écrits.</span></li>
+        <li><b>04</b><strong data-i18n="f4.t">Fidéliser</strong><span data-i18n="f4.d">Une cliente ravie devient un avis, une story, une recommandation.</span></li>
+      </ol>
     </div>
   </section>
 
-  <section class="sec dark" data-nav="dark" aria-labelledby="pourqui-t">
+  <section class="sec night" id="crm" data-nav="dark" aria-labelledby="crm-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">Pour qui</p>
-        <h2 id="pourqui-t">Pour celles et ceux qui démarrent vraiment.</h2>
+        <p class="label" data-i18n="crm.label">Le cœur d’Anza</p>
+        <h2 id="crm-t" data-i18n="crm.h2">Un vrai CRM, au prix d’un repas.</h2>
+        <p data-i18n="crm.p">Clients, prospects, devis, relances, historique : tout est au même endroit, sur votre téléphone. Pas un tableur, pas un carnet : un outil de vente qui vous dit chaque matin qui contacter pour vendre.</p>
       </div>
-      <div class="who-grid">
-        <ul class="who-list reveal">
-          <li><strong>Ceux qui se lancent</strong><span>Autoentrepreneurs qui viennent de créer ou qui vont créer.</span></li>
-          <li><strong>Vendeurs Instagram</strong><span>Créateurs, mode, beauté, food : vous vendez par DM et WhatsApp.</span></li>
-          <li><strong>Étudiants</strong><span>Une activité à côté des cours, avec un petit budget.</span></li>
-          <li><strong>France et Côte d’Ivoire</strong><span>Deux marchés, avec des prix adaptés à chacun.</span></li>
-        </ul>
-        <div class="not reveal">
-          <h3>Ce que ce n’est pas</h3>
-          <ul>
-            <li><b>Pas une formation qui promet des millions.</b> Des outils concrets, utilisés dès le premier jour.</li>
-            <li><b>Pas une coquille vide à remplir seul.</b> Tout arrive préparé à partir d’un questionnaire.</li>
-            <li><b>Pas un logiciel de plus.</b> Les trois piliers se parlent entre eux.</li>
-          </ul>
+      <ul class="feat reveal">
+        <li><b>01</b><strong data-i18n="c1.t">Fiche client complète</strong><p data-i18n="c1.d">Coordonnées, prestations, montant dépensé, prochain rendez vous et notes.</p></li><li><b>02</b><strong data-i18n="c2.t">Suivi des prospects</strong><p data-i18n="c2.d">Du premier message à la vente, vous voyez où en est chacun.</p></li><li><b>03</b><strong data-i18n="c3.t">Relances automatiques</strong><p data-i18n="c3.d">Anza repère qui attend une réponse et prépare le message, dans votre ton.</p></li><li><b>04</b><strong data-i18n="c4.t">Devis en 30 secondes</strong><p data-i18n="c4.d">Vos prestations et vos prix sont déjà enregistrés. Envoi par mail ou WhatsApp.</p></li><li><b>05</b><strong data-i18n="c5.t">Avis et recommandations</strong><p data-i18n="c5.d">Une cliente marquée satisfaite déclenche une demande d’avis et une story.</p></li><li><b>06</b><strong data-i18n="c6.t">Pensé pour le mobile</strong><p data-i18n="c6.d">Tout se gère depuis votre téléphone, là où vos clients vous écrivent.</p></li>
+      </ul>
+      <div class="vs reveal">
+        <div class="vs-them"><p class="vs-k" data-i18n="cp.l">Un CRM classique</p><p data-i18n="cp.ld">Un abonnement chaque mois, souvent par utilisateur. Une configuration de plusieurs heures. Une base vide au départ, et rien pour attirer des clients.</p></div>
+        <div class="vs-us"><p class="vs-k" data-i18n="cp.r">Le CRM Anza</p><p class="vs-price"><span data-i18n="crm.from">dès</span> <span data-i18n="pr.a">79 €</span> <small data-i18n="vat">+ TVA</small></p><p data-i18n="cp.rd">Inclus dès 79 € + TVA, une seule fois. Déjà rempli avec vos prestations et vos prix, relié à vos contenus pour faire venir de nouveaux clients.</p><a class="btn ink" href="#formules" data-i18n="crm.cta">Je veux mon CRM</a></div>
+      </div>
+      <div class="tool reveal" data-tabs><p class="tool-label" data-i18n="tool.label">Dans l’outil</p><div class="tool-tabs" role="tablist" aria-label="Le CRM Anza" data-i18n-aria-label="tabs.crm"><button type="button" role="tab" id="t-crm0" aria-selected="true" aria-controls="p-crm0"><strong data-i18n="t.clients">Clients sur mobile</strong><span data-i18n="t.clients.d">Toutes vos clientes dans votre téléphone : statut, historique, prochain passage. Un geste suffit pour relancer.</span></button><button type="button" role="tab" id="t-crm1" aria-selected="false" aria-controls="p-crm1"><strong data-i18n="t.relances">Relances</strong><span data-i18n="t.relances.d">Vous fixez les règles une fois. Anza repère qui attend une réponse et prépare le message.</span></button><button type="button" role="tab" id="t-crm2" aria-selected="false" aria-controls="p-crm2"><strong data-i18n="t.relmob">Relances sur téléphone</strong><span data-i18n="t.relmob.d">Une notification au bon moment, le message déjà écrit : il ne reste qu’à l’envoyer.</span></button><button type="button" role="tab" id="t-crm3" aria-selected="false" aria-controls="p-crm3"><strong data-i18n="t.devis">Devis</strong><span data-i18n="t.devis.d">Trois lettres du nom, vos prestations cochées : le devis PDF part par mail ou WhatsApp.</span></button><button type="button" role="tab" id="t-crm4" aria-selected="false" aria-controls="p-crm4"><strong data-i18n="t.avis">Avis client en story</strong><span data-i18n="t.avis.d">Une cliente satisfaite déclenche une story avis, envoyée pour accord avant toute publication.</span></button></div><figure class="tool-shot"><img id="p-crm0" role="tabpanel" aria-labelledby="t-crm0" src="outil-clients.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy"><img id="p-crm1" role="tabpanel" aria-labelledby="t-crm1" src="outil-relances.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><img id="p-crm2" role="tabpanel" aria-labelledby="t-crm2" src="outil-relances-mobile.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><img id="p-crm3" role="tabpanel" aria-labelledby="t-crm3" src="outil-devis.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><img id="p-crm4" role="tabpanel" aria-labelledby="t-crm4" src="outil-pont-avis.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><figcaption data-i18n="tool.cap">Capture de l’outil, exemple fictif</figcaption></figure></div>
+    </div>
+  </section>
+
+  <section class="sec blue-bg agent" id="nia" data-nav="light" aria-labelledby="nia-t">
+    <div class="wrap">
+      <div class="nia-head reveal">
+        <div class="avatar" aria-hidden="true"><span>N</span></div>
+        <div class="sec-head">
+          <p class="label" data-i18n="nia.label">Votre brand manager</p>
+          <h2 id="nia-t" data-i18n="nia.h2">Voici Nia. Elle commence par vous écouter.</h2>
+          <p data-i18n="nia.p">Nia est l’agent de brand management d’Anza. Avant d’écrire le moindre post, elle vous pose les questions qu’un brand manager vous poserait : votre parcours, ce qui vous rend unique, ce que vos clients disent de vous. Vous répondez comme vous parlez, à votre rythme. Résultat : des contenus qui vous ressemblent vraiment, et qui attirent les bons clients.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="sec blue-bg agent" id="agent" data-nav="light" aria-labelledby="agent-t">
-    <div class="wrap">
-      <div class="sec-head reveal">
-        <p class="label">Avant tout, on apprend à vous connaître</p>
-        <h2 id="agent-t">Un agent de personal branding, rien que pour vous.</h2>
-        <p>Rien n’est générique dans Anza. Avant de créer votre premier post, votre agent vous pose les questions qu’un consultant en personal branding vous poserait. Et il continue, chaque semaine.</p>
       </div>
       <ol class="agent-steps reveal">
-        <li><b>À la création</b><strong>L’entretien de départ</strong><span>Votre parcours, ce qui vous a fait vous lancer, ce que vos clients disent de vous, ce que vous refusez de faire. Vous répondez comme vous parlez, sans formulaire. L’agent en tire votre valeur ajoutée, vos preuves et votre ton.</span></li>
-        <li><b>Tous les 7 jours</b><strong>La question de la semaine</strong><span>Une question plus personnelle, sur votre instinct, votre énergie, vos fiertés et vos freins. Deux minutes, le dimanche soir. Vos réponses font évoluer votre positionnement et vos prochains posts.</span></li>
-        <li><b>Au fil des mois</b><strong>Une marque qui grandit avec vous</strong><span>Votre positionnement s’affine semaine après semaine, vos contenus parlent de ce que vous vivez vraiment, et votre bio suit.</span></li>
+        <li><b data-i18n="n1.b">Jour 1</b><strong data-i18n="n1.t">L’entretien de départ</strong><span data-i18n="n1.d">Une vraie conversation pour vous mettre à l’aise. Nia en tire votre valeur ajoutée, vos preuves et votre ton.</span></li>
+        <li><b data-i18n="n2.b">Tous les 7 jours</b><strong data-i18n="n2.t">La question de la semaine</strong><span data-i18n="n2.d">Deux minutes le dimanche soir : une fierté, un doute, une victoire. Nia ajuste vos prochains contenus.</span></li>
+        <li><b data-i18n="n3.b">Au fil des mois</b><strong data-i18n="n3.t">Une marque qui vend</strong><span data-i18n="n3.d">Votre positionnement s’affine, vos posts parlent de ce que vous vivez, et vos clients se reconnaissent.</span></li>
       </ol>
-      <div class="tool agent-tool reveal" data-tabs>
-        <p class="tool-label">Dans l’outil</p>
-        <div class="tool-tabs" role="tablist" aria-label="Votre agent de personal branding"><button type="button" role="tab" id="t-agent-entretien" aria-selected="true" aria-controls="p-agent-entretien"><strong>L’entretien de départ</strong><span>Une vraie conversation : l’agent pose une question, rebondit sur votre réponse, et construit en direct votre histoire, vos preuves et un premier brouillon de votre valeur ajoutée.</span></button><button type="button" role="tab" id="t-agent-semaine" aria-selected="false" aria-controls="p-agent-semaine"><strong>La question de la semaine</strong><span>Chaque dimanche, une notification et deux minutes de réponse. Un moment de fierté peut devenir votre story du mercredi, toujours avec l’accord des personnes concernées.</span></button><button type="button" role="tab" id="t-agent-journal" aria-selected="false" aria-controls="p-agent-journal"><strong>Le journal de l’agent</strong><span>Toutes vos réponses au même endroit : comment votre positionnement a évolué, les freins et les forces repérés, et ce que ça a changé dans vos contenus.</span></button></div>
-        <figure class="tool-shot"><img id="p-agent-entretien" role="tabpanel" aria-labelledby="t-agent-entretien" src="agent-entretien.webp" width="1600" height="1000" alt="Capture de l’entretien de départ avec l’agent personal branding, exemple fictif" loading="lazy"><img id="p-agent-semaine" role="tabpanel" aria-labelledby="t-agent-semaine" src="agent-semaine.webp" width="1600" height="1000" alt="Capture de la question de la semaine sur téléphone, exemple fictif" loading="lazy" hidden><img id="p-agent-journal" role="tabpanel" aria-labelledby="t-agent-journal" src="agent-journal.webp" width="1600" height="1000" alt="Capture du journal de l’agent, exemple fictif" loading="lazy" hidden><figcaption>Capture de l’outil, exemple fictif</figcaption></figure>
-      </div>
+      <p class="nia-note reveal" data-i18n="nia.note">Nia est une intelligence artificielle formée à la méthode SAUTI. Son nom veut dire « intention » en swahili. Derrière elle, l’équipe SAUTI et SC Project reste joignable.</p>
+      <div class="tool reveal" data-tabs><p class="tool-label" data-i18n="tool.label">Dans l’outil</p><div class="tool-tabs" role="tablist" aria-label="Nia, votre brand manager" data-i18n-aria-label="tabs.nia"><button type="button" role="tab" id="t-nia0" aria-selected="true" aria-controls="p-nia0"><strong data-i18n="t.ent">L’entretien avec Nia</strong><span data-i18n="t.ent.d">Nia pose une question, rebondit sur votre réponse et construit en direct votre histoire, vos preuves et votre valeur ajoutée.</span></button><button type="button" role="tab" id="t-nia1" aria-selected="false" aria-controls="p-nia1"><strong data-i18n="t.sem">La question de la semaine</strong><span data-i18n="t.sem.d">Chaque dimanche, une notification et deux minutes de réponse. Un moment de fierté peut devenir votre story du mercredi.</span></button><button type="button" role="tab" id="t-nia2" aria-selected="false" aria-controls="p-nia2"><strong data-i18n="t.jou">Le journal de Nia</strong><span data-i18n="t.jou.d">Toutes vos réponses au même endroit : votre positionnement, vos forces, vos freins, et l’effet sur vos contenus.</span></button></div><figure class="tool-shot"><img id="p-nia0" role="tabpanel" aria-labelledby="t-nia0" src="agent-entretien.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy"><img id="p-nia1" role="tabpanel" aria-labelledby="t-nia1" src="agent-semaine.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><img id="p-nia2" role="tabpanel" aria-labelledby="t-nia2" src="agent-journal.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><figcaption data-i18n="tool.cap">Capture de l’outil, exemple fictif</figcaption></figure></div>
     </div>
   </section>
 
-  <section class="sec" id="pack" data-nav="light" aria-labelledby="pack-t">
+  <section class="sec" id="outils" data-nav="light" aria-labelledby="tools-t">
     <div class="wrap">
-      <div class="method-intro reveal">
-        <div class="sec-head">
-          <p class="label">La méthode SAUTI, version lancement</p>
-          <h2 id="pack-t">Ce que vous recevez, concrètement.</h2>
-          <p>SAUTI accompagne des athlètes et des marques avec six étapes : diagnostic, message et voix, construction, production et diffusion, mesure, conversion. Anza met cette méthode dans votre poche, à la taille d’une activité qui démarre.</p>
-        </div>
-        <p class="method-steps" aria-label="Les six étapes de la méthode SAUTI"><span>Diagnostic</span><span>Message et voix</span><span class="o">Construction</span><span class="o">Production et diffusion</span><span class="o">Mesure</span><span>Conversion</span></p>
+      <div class="sec-head reveal">
+        <p class="label" data-i18n="tools.label">Tout pour vendre</p>
+        <h2 id="tools-t" data-i18n="tools.h2">Trois piliers, un seul outil.</h2>
+        <p data-i18n="tools.p">La méthode SAUTI en version lancement. Chaque outil sert le même objectif : trouver des clients et les garder.</p>
       </div>
 
       <article class="pillar">
-        <div class="pillar-name">
-          <b>01</b>
-          <h3>Se faire connaître</h3>
-          <p>Marketing</p>
-          <small>Message et voix, production et diffusion : on écrit avec vos mots et on publie avec régularité.</small>
-        </div>
-        <ul class="items">
-          <li><strong>Séquenceur de stories</strong><p>Un texte et quelques photos deviennent une séquence de 6 à 8 stories qui raconte quelque chose.</p></li>
-          <li><strong>Carrousels et posts</strong><p>Générés à votre charte, prêts pour Instagram et LinkedIn.</p></li>
-          <li><strong>Calendrier de 4 semaines</strong><p>Quoi publier, quel jour, avec les textes déjà écrits.</p></li>
-          <li><strong>Charte visuelle et bio</strong><p>Couleurs, typographies, bio Instagram et page lien en bio.</p></li>
-        </ul>
-        <div class="tool" data-tabs>
-          <p class="tool-label">Dans l’outil</p>
-          <div class="tool-tabs" role="tablist" aria-label="Outils pour se faire connaître"><button type="button" role="tab" id="t-carrousels" aria-selected="true" aria-controls="p-carrousels"><strong>Carrousels et posts</strong><span>Vous écrivez une idée, l’outil écrit les slides à votre charte. Chaque texte se modifie en un clic, puis s’exporte en images prêtes pour Instagram.</span></button><button type="button" role="tab" id="t-calendrier" aria-selected="false" aria-controls="p-calendrier"><strong>Calendrier</strong><span>Le mois est planifié : quoi publier, quel jour, à quelle heure. Chaque publication arrive avec sa légende, ses hashtags et la story qui l’accompagne.</span></button><button type="button" role="tab" id="t-charte" aria-selected="false" aria-controls="p-charte"><strong>Charte et bio</strong><span>Vos couleurs, vos polices et votre ton de voix, enregistrés une fois. Tout ce que l’outil produit les respecte, et votre profil Instagram suit.</span></button></div>
-          <figure class="tool-shot"><img id="p-carrousels" role="tabpanel" aria-labelledby="t-carrousels" src="outil-carrousels.webp" width="1600" height="1000" alt="Capture de l’outil Carrousels et posts, exemple fictif" loading="lazy"><img id="p-calendrier" role="tabpanel" aria-labelledby="t-calendrier" src="outil-calendrier.webp" width="1600" height="1000" alt="Capture de l’outil Calendrier, exemple fictif" loading="lazy" hidden><img id="p-charte" role="tabpanel" aria-labelledby="t-charte" src="outil-charte.webp" width="1600" height="1000" alt="Capture de l’outil Charte et bio, exemple fictif" loading="lazy" hidden><figcaption>Capture de l’outil, exemple fictif</figcaption></figure>
-        </div>
+        <div class="pillar-name"><b>01</b><h3 data-i18n="p1.t">Se faire connaître</h3><p data-i18n="p1.s">Attirer</p><small data-i18n="p1.d">Des contenus réguliers, écrits avec vos mots, qui donnent envie de vous écrire.</small></div>
+        <ul class="items"><li><strong data-i18n="i1a.t">Séquenceur de stories</strong><p data-i18n="i1a.d">Un texte et quelques photos deviennent 6 à 8 stories qui racontent et qui vendent.</p></li><li><strong data-i18n="i1b.t">Carrousels et posts</strong><p data-i18n="i1b.d">À votre charte, prêts pour Instagram et LinkedIn.</p></li><li><strong data-i18n="i1c.t">Calendrier de 4 semaines</strong><p data-i18n="i1c.d">Quoi publier, quel jour, avec les textes déjà écrits.</p></li><li><strong data-i18n="i1d.t">Charte et bio qui convertit</strong><p data-i18n="i1d.d">Couleurs, typographies, bio Instagram et lien en bio pensés pour faire écrire.</p></li></ul>
+        <div class="tool reveal" data-tabs><p class="tool-label" data-i18n="tool.label">Dans l’outil</p><div class="tool-tabs" role="tablist" aria-label="Outils pour attirer" data-i18n-aria-label="tabs.p1"><button type="button" role="tab" id="t-p10" aria-selected="true" aria-controls="p-p10"><strong data-i18n="t.car">Carrousels et posts</strong><span data-i18n="t.car.d">Vous écrivez une idée, l’outil écrit les slides à votre charte, puis les exporte en images prêtes pour Instagram.</span></button><button type="button" role="tab" id="t-p11" aria-selected="false" aria-controls="p-p11"><strong data-i18n="t.cal">Calendrier</strong><span data-i18n="t.cal.d">Le mois est planifié : chaque publication arrive avec sa légende, ses hashtags et sa story.</span></button><button type="button" role="tab" id="t-p12" aria-selected="false" aria-controls="p-p12"><strong data-i18n="t.cha">Charte et bio</strong><span data-i18n="t.cha.d">Vos couleurs, vos polices et votre ton, enregistrés une fois. Tout ce que l’outil produit les respecte.</span></button></div><figure class="tool-shot"><img id="p-p10" role="tabpanel" aria-labelledby="t-p10" src="outil-carrousels.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy"><img id="p-p11" role="tabpanel" aria-labelledby="t-p11" src="outil-calendrier.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><img id="p-p12" role="tabpanel" aria-labelledby="t-p12" src="outil-charte.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><figcaption data-i18n="tool.cap">Capture de l’outil, exemple fictif</figcaption></figure></div>
       </article>
 
       <article class="pillar">
-        <div class="pillar-name">
-          <b>02</b>
-          <h3>S’organiser</h3>
-          <p>Clients et commandes</p>
-          <small>Construction et conversion : chaque contact devient un client suivi, chaque client satisfait devient une preuve.</small>
-        </div>
-        <ul class="items">
-          <li><strong>CRM simple sur mobile</strong><p>Clients, prospects, commandes ou prestations, tout depuis le téléphone.</p></li>
-          <li><strong>Devis préremplis</strong><p>Vos prestations et vos prix déjà enregistrés : un devis en trente secondes.</p></li>
-          <li><strong>Relances automatiques</strong><p>Un prospect sans réponse ou un client à recontacter : un rappel au bon moment.</p></li>
-          <li class="bridge"><em>Le pont</em><strong>Client satisfait, story témoignage</strong><p>Un client marqué satisfait déclenche une proposition de story avis client.</p></li>
-        </ul>
-        <div class="tool" data-tabs>
-          <p class="tool-label">Dans l’outil</p>
-          <div class="tool-tabs" role="tablist" aria-label="Outils pour s’organiser"><button type="button" role="tab" id="t-clients" aria-selected="true" aria-controls="p-clients"><strong>Clients sur mobile</strong><span>Toutes vos clientes dans votre téléphone : statut, historique, prochain passage. Un geste suffit pour relancer.</span></button><button type="button" role="tab" id="t-devis" aria-selected="false" aria-controls="p-devis"><strong>Devis</strong><span>Trois lettres du nom, vos prestations cochées : le devis PDF est prêt avec les mentions obligatoires, et part par mail ou WhatsApp.</span></button><button type="button" role="tab" id="t-relances" aria-selected="false" aria-controls="p-relances"><strong>Relances</strong><span>Vous fixez les règles une fois. L’outil repère qui attend une réponse et prépare le message dans votre ton.</span></button><button type="button" role="tab" id="t-relances-mobile" aria-selected="false" aria-controls="p-relances-mobile"><strong>Relances sur téléphone</strong><span>Une notification au bon moment, le message déjà écrit : il ne reste qu’à l’envoyer.</span></button><button type="button" role="tab" id="t-pont-avis" aria-selected="false" aria-controls="p-pont-avis"><strong>Le pont avis client</strong><span>Une cliente marquée satisfaite déclenche une story avis, envoyée pour accord avant toute publication.</span></button></div>
-          <figure class="tool-shot"><img id="p-clients" role="tabpanel" aria-labelledby="t-clients" src="outil-clients.webp" width="1600" height="1000" alt="Capture de l’outil Clients sur mobile, exemple fictif" loading="lazy"><img id="p-devis" role="tabpanel" aria-labelledby="t-devis" src="outil-devis.webp" width="1600" height="1000" alt="Capture de l’outil Devis, exemple fictif" loading="lazy" hidden><img id="p-relances" role="tabpanel" aria-labelledby="t-relances" src="outil-relances.webp" width="1600" height="1000" alt="Capture de l’outil Relances, exemple fictif" loading="lazy" hidden><img id="p-relances-mobile" role="tabpanel" aria-labelledby="t-relances-mobile" src="outil-relances-mobile.webp" width="1600" height="1000" alt="Capture de l’outil Relances sur téléphone, exemple fictif" loading="lazy" hidden><img id="p-pont-avis" role="tabpanel" aria-labelledby="t-pont-avis" src="outil-pont-avis.webp" width="1600" height="1000" alt="Capture de l’outil Le pont avis client, exemple fictif" loading="lazy" hidden><figcaption>Capture de l’outil, exemple fictif</figcaption></figure>
-        </div>
+        <div class="pillar-name"><b>02</b><h3 data-i18n="p2.t">Vendre et suivre</h3><p data-i18n="p2.s">Convertir</p><small data-i18n="p2.d">Le CRM, les devis et les relances qui transforment un message en vente.</small><a class="plink" href="#crm" data-i18n="p2.link">Voir le CRM en détail</a></div>
+        <ul class="items"><li><strong data-i18n="i2a.t">CRM sur mobile</strong><p data-i18n="i2a.d">Clients, prospects et prestations, tout depuis le téléphone.</p></li><li><strong data-i18n="i2b.t">Devis préremplis</strong><p data-i18n="i2b.d">Un devis propre en trente secondes.</p></li><li><strong data-i18n="i2c.t">Relances au bon moment</strong><p data-i18n="i2c.d">Plus aucun prospect oublié.</p></li><li class="bridge"><em data-i18n="i2x.e">Le pont</em><strong data-i18n="i2x.t">Client satisfait, nouvelle story avis</strong><p data-i18n="i2x.d">Vos clients satisfaits vous amènent les suivants.</p></li></ul>
       </article>
 
       <article class="pillar">
-        <div class="pillar-name">
-          <b>03</b>
-          <h3>Suivre son argent</h3>
-          <p>Finance</p>
-          <small>Mesure : on regarde ce qui rapporte, et vos chiffres nourrissent votre communication.</small>
-        </div>
-        <ul class="items">
-          <li><strong>Tableau de bord du mois</strong><p>Chiffre d’affaires, graphique mois par mois, seuils de la micro entreprise à surveiller.</p></li>
-          <li><strong>Calendrier des déclarations</strong><p>Vos dates de déclaration et les seuils de la micro entreprise, avec un rappel avant chaque échéance.</p></li>
-          <li><strong>Suivi et conseils facturation</strong><p>En France, les factures passent désormais par des plateformes agréées. On vous aide à choisir la vôtre, à la prendre en main, et on fait le point avec vous sur votre facturation.</p></li>
-          <li class="bridge"><em>Le pont</em><strong>Le bilan du mois en story</strong><p>Les chiffres du mois transformés automatiquement en séquence « ce mois chez nous ».</p></li>
-        </ul>
-        <div class="tool" data-tabs>
-          <p class="tool-label">Dans l’outil</p>
-          <div class="tool-tabs" role="tablist" aria-label="Outils pour suivre son argent"><button type="button" role="tab" id="t-tableau-de-bord" aria-selected="true" aria-controls="p-tableau-de-bord"><strong>Tableau de bord</strong><span>Chiffre d’affaires, clientes, devis en attente et seuils de la micro entreprise, mis à jour tout seuls.</span></button><button type="button" role="tab" id="t-pont-bilan" aria-selected="false" aria-controls="p-pont-bilan"><strong>Le pont bilan du mois</strong><span>Le dernier jour du mois, vos chiffres deviennent une séquence « ce mois chez nous », montants masqués si vous le souhaitez.</span></button></div>
-          <figure class="tool-shot"><img id="p-tableau-de-bord" role="tabpanel" aria-labelledby="t-tableau-de-bord" src="outil-tableau-de-bord.webp" width="1600" height="1000" alt="Capture de l’outil Tableau de bord, exemple fictif" loading="lazy"><img id="p-pont-bilan" role="tabpanel" aria-labelledby="t-pont-bilan" src="outil-pont-bilan.webp" width="1600" height="1000" alt="Capture de l’outil Le pont bilan du mois, exemple fictif" loading="lazy" hidden><figcaption>Capture de l’outil, exemple fictif</figcaption></figure>
-        </div>
+        <div class="pillar-name"><b>03</b><h3 data-i18n="p3.t">Suivre son argent</h3><p data-i18n="p3.s">Piloter</p><small data-i18n="p3.d">Vous voyez ce qui rapporte, et vos chiffres nourrissent votre communication.</small></div>
+        <ul class="items"><li><strong data-i18n="i3a.t">Tableau de bord du mois</strong><p data-i18n="i3a.d">Chiffre d’affaires, clients, devis en attente et seuils à surveiller.</p></li><li><strong data-i18n="i3b.t">Calendrier des déclarations</strong><p data-i18n="i3b.d">Un rappel avant chaque échéance.</p></li><li><strong data-i18n="i3c.t">Suivi et conseils facturation</strong><p data-i18n="i3c.d">En France, les factures passent par des plateformes agréées. On vous aide à choisir la vôtre et à bien démarrer.</p></li><li class="bridge"><em data-i18n="i2x.e">Le pont</em><strong data-i18n="i3x.t">Le bilan du mois en story</strong><p data-i18n="i3x.d">Vos chiffres deviennent une séquence « ce mois chez nous », montants masqués si vous le souhaitez.</p></li></ul>
+        <div class="tool reveal" data-tabs><p class="tool-label" data-i18n="tool.label">Dans l’outil</p><div class="tool-tabs" role="tablist" aria-label="Outils pour suivre son argent" data-i18n-aria-label="tabs.p3"><button type="button" role="tab" id="t-p30" aria-selected="true" aria-controls="p-p30"><strong data-i18n="t.tdb">Tableau de bord</strong><span data-i18n="t.tdb.d">Chiffre d’affaires, clientes, devis en attente et seuils de la micro entreprise, mis à jour tout seuls.</span></button><button type="button" role="tab" id="t-p31" aria-selected="false" aria-controls="p-p31"><strong data-i18n="t.bil">Le bilan du mois</strong><span data-i18n="t.bil.d">Le dernier jour du mois, vos chiffres deviennent une séquence prête à publier.</span></button></div><figure class="tool-shot"><img id="p-p30" role="tabpanel" aria-labelledby="t-p30" src="outil-tableau-de-bord.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy"><img id="p-p31" role="tabpanel" aria-labelledby="t-p31" src="outil-pont-bilan.webp" width="1600" height="1000" alt="Capture de l’outil Anza, exemple fictif" data-i18n-alt="alt.shot" loading="lazy" hidden><figcaption data-i18n="tool.cap">Capture de l’outil, exemple fictif</figcaption></figure></div>
       </article>
 
       <div class="included reveal">
-        <h3>Inclus dans toutes les formules</h3>
-        <ul>
-          <li>Agent personal branding et entretien de départ</li>
-          <li>Question de la semaine, tous les 7 jours</li>
-          <li>Questionnaire business qui nourrit tout Anza</li>
-          <li>Votre IA réglée sur votre ton</li>
-          <li>Checklist de démarrage</li>
-          <li>Modèles de CGV et mentions obligatoires</li>
-          <li>Calendrier des déclarations</li>
-          <li>Conseils sur la facturation</li>
-        </ul>
+        <h3 data-i18n="inc.h">Inclus dans toutes les formules</h3>
+        <ul><li data-i18n="inc.1">CRM complet sur mobile</li><li data-i18n="inc.2">Entretien de départ avec Nia</li><li data-i18n="inc.3">Question de la semaine</li><li data-i18n="inc.4">Devis et relances</li><li data-i18n="inc.5">Votre IA réglée sur votre ton</li><li data-i18n="inc.6">Checklist de démarrage</li><li data-i18n="inc.7">Modèles de CGV et mentions</li></ul>
       </div>
     </div>
   </section>
 
-  <section class="sec dark" id="exemple" data-nav="dark" aria-labelledby="exemple-t">
+  <section class="sec dark" id="exemple" data-nav="dark" aria-labelledby="ex-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">À quoi ça ressemble</p>
-        <h2 id="exemple-t">Samedi le questionnaire. Dimanche soir, tout est prêt.</h2>
-        <p>Awa lance son activité de prothésiste ongulaire. À partir de trois photos et d’une phrase, Anza écrit une histoire complète, dans son ton, avec un appel à l’action à la fin.</p>
+        <p class="label" data-i18n="ex.label">À quoi ça ressemble</p>
+        <h2 id="ex-t" data-i18n="ex.h2">Samedi, l’entretien avec Nia. Dimanche soir, tout est prêt.</h2>
+        <p data-i18n="ex.p">Awa lance son activité de prothésiste ongulaire. À partir de trois photos et d’une phrase, Anza écrit une séquence qui se termine par une prise de rendez vous, et range chaque nouvelle demande dans son CRM.</p>
       </div>
-      <ol class="example-grid reveal" aria-label="Une séquence de stories générée">
-        <li class="frame f1"><span class="n">STORY 1</span><strong>Le problème : des ongles qui ne tiennent pas.</strong></li>
-        <li class="frame f2"><span class="n">STORY 2</span><strong>Avant, après : la même main.</strong></li>
-        <li class="frame f3"><span class="n">STORY 3</span><strong>La preuve à 3 semaines.</strong><span>Zéro décollement.</span></li>
-        <li class="frame f4"><span class="n">STORY 4</span><strong>Créneaux dispo cette semaine.</strong><i>Réserver ma pose</i></li>
+      <ol class="example-grid reveal" aria-label="Une séquence de stories générée" data-i18n-aria-label="ex.aria">
+        <li class="frame f1"><span class="n">STORY 1</span><strong data-i18n="ex.s1">Le problème : des ongles qui ne tiennent pas.</strong></li>
+        <li class="frame f2"><span class="n">STORY 2</span><strong data-i18n="ex.s2">Avant, après : la même main.</strong></li>
+        <li class="frame f3"><span class="n">STORY 3</span><strong data-i18n="ex.s3">La preuve à 3 semaines.</strong><span data-i18n="ex.s3b">Zéro décollement.</span></li>
+        <li class="frame f4"><span class="n">STORY 4</span><strong data-i18n="ex.s4">Créneaux dispo cette semaine.</strong><i data-i18n="story.cta">Réserver ma pose</i></li>
       </ol>
       <div class="example-row reveal">
         <div class="panel">
-          <h3>Mon mois, novembre</h3>
-          <div class="kpis"><div><strong>1 240 €</strong>chiffre d’affaires</div><div><strong>31</strong>clientes</div><div><strong>4</strong>devis en attente</div></div>
+          <h3 data-i18n="ex.pan1">Son mois, novembre</h3>
+          <div class="kpis"><div><strong data-i18n="pr.ca">1 240 €</strong><span data-i18n="ex.k1">chiffre d’affaires</span></div><div><strong>31</strong><span data-i18n="ex.k2">clientes</span></div><div><strong>6</strong><span data-i18n="ex.k3">prospects à relancer</span></div></div>
           <div class="bars" style="margin-top:22px"><i style="height:36%"></i><i style="height:50%"></i><i style="height:44%"></i><i style="height:64%"></i><i style="height:72%"></i><i style="height:94%"></i></div>
-          <div class="months" aria-hidden="true"><span>Juin</span><span>Juil</span><span>Août</span><span>Sept</span><span>Oct</span><span>Nov</span></div>
+          <div class="months" aria-hidden="true"><span data-i18n="m.jun">Juin</span><span data-i18n="m.jul">Juil</span><span data-i18n="m.aug">Août</span><span data-i18n="m.sep">Sept</span><span data-i18n="m.oct">Oct</span><span data-i18n="m.nov">Nov</span></div>
         </div>
         <div class="panel">
-          <h3>Ses clientes</h3>
+          <h3 data-i18n="ex.pan2">Son CRM ce matin</h3>
           <ul class="crm">
-            <li><span>Inès K., pose complète</span><span>Payé</span></li>
-            <li><span>Mariam D., remplissage</span><span>Relance demain</span></li>
-            <li><span>Sarah L., avis 5 étoiles</span><span class="o">Story proposée</span></li>
+            <li><span data-i18n="phone.l1">Inès K., pose complète</span><span data-i18n="phone.s1">Payé</span></li>
+            <li><span data-i18n="phone.l2">Mariam D., devis envoyé</span><span data-i18n="phone.s2">Relance demain</span></li>
+            <li><span data-i18n="phone.l3">Sarah L., avis 5 étoiles</span><span class="o" data-i18n="phone.s3">Story proposée</span></li>
           </ul>
         </div>
       </div>
-      <p class="fine">Les chiffres et prénoms sont inventés pour l’illustration. Votre espace est réalisé à votre charte, avec votre activité.</p>
+      <p class="fine" data-i18n="ex.fine">Les chiffres et prénoms sont inventés pour l’illustration. Aucun résultat n’est garanti.</p>
     </div>
   </section>
 
-  <section class="sec" data-nav="light" aria-labelledby="parcours-t">
+  <section class="sec" data-nav="light" aria-labelledby="par-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">Le parcours</p>
-        <h2 id="parcours-t">Du questionnaire au premier bilan du mois.</h2>
+        <p class="label" data-i18n="par.label">Le parcours</p>
+        <h2 id="par-t" data-i18n="par.h2">De l’entretien à vos premières ventes.</h2>
       </div>
       <ol class="timeline reveal">
-        <li><b>Jour 1</b><strong>L’entretien avec votre agent</strong><p>Votre histoire, votre valeur ajoutée, vos clients, vos prix, vos couleurs. Vingt minutes de conversation, comme avec un consultant.</p></li>
-        <li><b>Jour 2</b><strong>Votre espace arrive rempli</strong><p>Charte, bio, calendrier de 4 semaines, CRM avec vos prestations, modèles de devis. Votre IA est réglée sur votre ton.</p></li>
-        <li><b>Semaine 1</b><strong>Premières publications</strong><p>Vous publiez vos séquences, enregistrez vos premiers clients, envoyez vos premiers devis. Dimanche soir, votre première question de la semaine.</p></li>
-        <li><b>Fin du mois</b><strong>Le bilan automatique</strong><p>Le tableau de bord fait le point et propose la story « ce mois chez nous ». Votre com se nourrit de votre activité.</p></li>
+        <li><b data-i18n="s1.b">Jour 1</b><strong data-i18n="s1.t">L’entretien avec Nia</strong><p data-i18n="s1.d">Votre histoire, vos clients, vos prix, vos couleurs. Vingt minutes, comme avec une brand manager.</p></li><li><b data-i18n="s2.b">Jour 2</b><strong data-i18n="s2.t">Votre espace arrive rempli</strong><p data-i18n="s2.d">CRM avec vos prestations, devis, charte, bio et calendrier de 4 semaines.</p></li><li><b data-i18n="s3.b">Semaine 1</b><strong data-i18n="s3.t">Vos premiers prospects</strong><p data-i18n="s3.d">Vous publiez, les demandes arrivent dans le CRM, les devis partent et les relances tombent au bon moment.</p></li><li><b data-i18n="s4.b">Fin du mois</b><strong data-i18n="s4.t">Le bilan automatique</strong><p data-i18n="s4.d">Vous voyez ce qui a fait vendre, et la story « ce mois chez nous » est prête.</p></li>
       </ol>
       <figure class="q-shot reveal">
-        <img src="outil-questionnaire.webp" width="1600" height="1000" alt="Capture du questionnaire business et du profil de l’IA, exemple fictif" loading="lazy">
-        <figcaption><strong>Jour 1, en vrai.</strong> Chaque réponse à votre agent remplit le profil de votre IA : activité, cible, prix, ton. C’est ce profil qui écrit ensuite vos posts, vos devis et vos relances.<span>Capture de l’outil, exemple fictif</span></figcaption>
+        <img src="outil-questionnaire.webp" width="1600" height="1000" alt="Capture de l’entretien avec Nia et du profil de l’IA, exemple fictif" data-i18n-alt="alt.q" loading="lazy">
+        <figcaption><strong data-i18n="q.t">Jour 1, en vrai.</strong><span class="qd" data-i18n="q.d">Chaque réponse à Nia remplit le profil de votre IA : activité, cible, prix, ton. C’est ce profil qui écrit ensuite vos posts, vos devis et vos relances.</span><span data-i18n="tool.cap">Capture de l’outil, exemple fictif</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="sec blue-bg" data-nav="light" aria-labelledby="diff-t">
+  <section class="sec blue-bg" data-nav="light" aria-labelledby="cmp-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">Ce qui nous distingue</p>
-        <h2 id="diff-t">Les autres font une partie. Anza fait le lien.</h2>
+        <p class="label" data-i18n="cmp.label">Ce qui nous distingue</p>
+        <h2 id="cmp-t" data-i18n="cmp.h2">Les autres font une partie. Anza fait vendre.</h2>
       </div>
       <table class="compare reveal">
-        <thead><tr><th scope="col">Ce qui existe</th><th scope="col">Ce qui manque</th></tr></thead>
+        <thead><tr><th scope="col" data-i18n="cmp.th1">Ce qui existe</th><th scope="col" data-i18n="cmp.th2">Ce qui manque</th></tr></thead>
         <tbody>
-          <tr><td>Logiciels de facturation micro</td><td>Seulement la finance, rien pour se faire connaître.</td></tr>
-          <tr><td>Contenu généré par IA</td><td>Des modèles génériques qui ne connaissent pas votre ton.</td></tr>
-          <tr><td>Outils de stories</td><td>Aucun lien avec votre activité réelle.</td></tr>
-          <tr><td>Kits Notion à 25 ou 30 $</td><td>Des coquilles vides, sans IA et sans accompagnement.</td></tr>
-          <tr class="us"><td><span>Anza</span></td><td>Les trois piliers reliés, préremplis, sur votre IA, en français, avec un humain derrière.</td></tr>
+          <tr><td data-i18n="cmp.r1a">Logiciels CRM classiques</td><td data-i18n="cmp.r1b">Un abonnement mensuel, une base vide, rien pour attirer des clients.</td></tr><tr><td data-i18n="cmp.r2a">Contenus générés par IA</td><td data-i18n="cmp.r2b">Des textes génériques qui ne connaissent ni votre ton ni vos clients.</td></tr><tr><td data-i18n="cmp.r3a">Logiciels de gestion</td><td data-i18n="cmp.r3b">La gestion seulement, rien pour vendre.</td></tr><tr><td data-i18n="cmp.r4a">Kits Notion</td><td data-i18n="cmp.r4b">Des coquilles vides, sans IA et sans accompagnement.</td></tr>
+          <tr class="us"><td><span>Anza</span></td><td data-i18n="cmp.r5b">Attirer, convertir, fidéliser : tout est relié, prérempli, avec Nia et une équipe humaine.</td></tr>
         </tbody>
       </table>
     </div>
   </section>
 
-  <section class="sec dark" id="formules" data-nav="dark" aria-labelledby="formules-t">
+  <section class="sec dark" id="formules" data-nav="dark" aria-labelledby="pl-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">Formules et prix</p>
-        <h2 id="formules-t">Trois formules, comme une activité qui grandit.</h2>
-        <p>Commencez seul, faites installer, puis déléguez. Vous passez à la formule suivante quand votre activité le demande.</p>
+        <p class="label" data-i18n="pl.label">Formules et prix</p>
+        <h2 id="pl-t" data-i18n="pl.h2">Choisissez votre départ.</h2>
+        <p data-i18n="pl.p">Le CRM est inclus dans toutes les formules. Prix hors taxes, la TVA applicable s’ajoute.</p>
       </div>
       <div class="plans reveal">
         <article class="plan">
-          <p class="tag">Le Stand</p>
-          <h3>Je me lance seul.</h3>
-          <p class="for">Petit budget, envie d’avancer vite.</p>
-          <p class="price">79 €<small> une fois</small></p>
-          <p class="fcfa">environ 25 000 FCFA</p>
-          <ul>
-            <li>Questionnaire business</li>
-            <li>Séquenceur, carrousels et posts</li>
-            <li>Calendrier de 4 semaines</li>
-            <li>CRM modèle et devis</li>
-            <li>Checklist de démarrage</li>
-            <li>Tutoriels vidéo courts</li>
-          </ul>
-          <a class="btn line" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20Le%20Stand">Choisir le Stand</a>
+          <p class="tag" data-i18n="a.tag">Le Stand</p>
+          <h3 data-i18n="a.h">Je me lance seul.</h3>
+          <p class="for" data-i18n="a.for">Petit budget, envie d’avancer vite.</p>
+          <p class="price"><span data-i18n="pr.a">79 €</span><small data-i18n="vat">+ TVA</small></p>
+          <p class="per" data-i18n="once">une seule fois</p>
+          <ul><li data-i18n="a.1">CRM complet sur mobile</li><li data-i18n="a.2">Entretien de départ avec Nia</li><li data-i18n="a.3">Séquenceur, carrousels et posts</li><li data-i18n="a.4">Calendrier de 4 semaines</li><li data-i18n="a.5">Devis et relances automatiques</li><li data-i18n="a.6">Tutoriels vidéo courts</li></ul>
+          <a class="btn line" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20Le%20Stand" data-i18n-href="mail.a" data-i18n="a.cta">Choisir le Stand</a>
         </article>
         <article class="plan featured">
-          <p class="tag">La Boutique</p>
-          <h3>Je veux que ce soit installé pour moi.</h3>
-          <p class="for">On met tout en place avec vous.</p>
-          <p class="price">199 €<small> une fois</small></p>
-          <p class="fcfa">environ 60 000 FCFA</p>
-          <ul>
-            <li class="head">Tout le Stand, plus</li>
-            <li>Appel d’installation</li>
-            <li>Charte visuelle sur mesure</li>
-            <li>Bio Instagram optimisée</li>
-            <li>Page lien en bio ou mini site</li>
-            <li>Conseils et suivi facturation</li>
-          </ul>
-          <a class="btn ink" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20La%20Boutique">Choisir la Boutique</a>
+          <p class="tag"><span data-i18n="b.tag">La Boutique</span><em class="badge" data-i18n="b.badge">Recommandée</em></p>
+          <h3 data-i18n="b.h">Tout installé, avec ma page.</h3>
+          <p class="for" data-i18n="b.for">On met tout en place avec vous.</p>
+          <p class="price"><span data-i18n="pr.b">499 €</span><small data-i18n="vat">+ TVA</small></p>
+          <p class="per" data-i18n="once">une seule fois</p>
+          <ul><li class="head" data-i18n="b.head">Tout le Stand, plus</li><li data-i18n="b.1"><b>Mini landing page à votre image</b>, prête à recevoir vos demandes</li><li data-i18n="b.2">Appel d’installation</li><li data-i18n="b.3">Import de vos clients dans le CRM</li><li data-i18n="b.4">Charte visuelle sur mesure</li><li data-i18n="b.5">Bio Instagram optimisée</li><li data-i18n="b.6">Conseils et suivi facturation</li></ul>
+          <p class="pnote" data-i18n="b.note">La mini landing page n’est pas incluse dans le Stand.</p>
+          <a class="btn ink" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20La%20Boutique" data-i18n-href="mail.b" data-i18n="b.cta">Choisir la Boutique</a>
         </article>
         <article class="plan">
-          <p class="tag">Le Magasin</p>
-          <h3>Je n’ai pas le temps, je délègue.</h3>
-          <p class="for">On s’en occupe chaque semaine.</p>
-          <p class="price">dès 79 €<small> par mois</small></p>
-          <p class="fcfa">environ 30 000 FCFA par mois</p>
-          <ul>
-            <li class="head">Toute la Boutique, plus</li>
-            <li>3 séquences publiées par semaine</li>
-            <li>Story bilan du mois</li>
-            <li>Point mensuel de 30 minutes</li>
-            <li>Nouveaux modèles chaque mois</li>
-          </ul>
-          <a class="btn line" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20Le%20Magasin">Choisir le Magasin</a>
+          <p class="tag" data-i18n="c.tag">Le Magasin</p>
+          <h3 data-i18n="c.h">Je délègue.</h3>
+          <p class="for" data-i18n="c.for">On s’occupe de votre communication chaque semaine.</p>
+          <p class="price"><span data-i18n="pr.c">99 €</span><small data-i18n="vat">+ TVA</small></p>
+          <p class="per" data-i18n="month">par mois</p>
+          <ul><li class="head" data-i18n="c.head">Toute la Boutique, plus</li><li data-i18n="c.1">3 séquences publiées pour vous chaque semaine</li><li data-i18n="c.2">Suivi de votre CRM et de vos relances</li><li data-i18n="c.3">Story bilan du mois</li><li data-i18n="c.4">Point mensuel de 30 minutes</li></ul>
+          <a class="btn line" href="mailto:contact@agencysauti.com?subject=Anza%2C%20formule%20Le%20Magasin" data-i18n-href="mail.c" data-i18n="c.cta">Choisir le Magasin</a>
         </article>
       </div>
-      <div class="founder reveal">
-        <strong>Tarif fondateur</strong>
-        <p>Pour nos dix premiers clients : un tarif réduit en échange d’un témoignage vidéo sur votre lancement.</p>
-      </div>
-      <p class="why">Pourquoi un abonnement pour le Magasin : publier chaque semaine pour vous est un service qui se renouvelle. Pour le Stand, une option de mise à jour à petit prix mensuel garde votre espace à jour.</p>
+      <div class="founder reveal"><strong data-i18n="fd.t">Tarif fondateur</strong><p data-i18n="fd.d">Pour nos dix premiers clients : un tarif réduit en échange d’un témoignage vidéo sur votre lancement.</p></div>
     </div>
   </section>
 
   <section class="sec" id="questions" data-nav="light" aria-labelledby="faq-t">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="label">Questions</p>
-        <h2 id="faq-t">Avant de vous lancer.</h2>
+        <p class="label" data-i18n="faq.label">Questions</p>
+        <h2 id="faq-t" data-i18n="faq.h2">Avant de vous lancer.</h2>
       </div>
       <div class="faq reveal">
-        <details>
-          <summary>En combien de temps tout est prêt ?</summary>
-          <p>Le questionnaire prend une vingtaine de minutes. Votre espace arrive rempli le lendemain : charte, bio, calendrier de 4 semaines, CRM et modèles de devis.</p>
-        </details>
-        <details>
-          <summary>La question de la semaine, ça prend combien de temps ?</summary>
-          <p>Deux minutes, le dimanche soir. Vous pouvez passer une semaine, votre agent reprend la suivante. Vos réponses restent privées : rien n’est publié sans votre accord, ni sans celui des personnes dont vous parlez.</p>
-        </details>
-        <details>
-          <summary>Je ne m’y connais pas en IA, c’est un problème ?</summary>
-          <p>Non. Votre IA est réglée pour vous à partir du questionnaire, sur votre ton et votre activité. Des tutoriels vidéo courts montrent chaque geste, et la Boutique inclut un appel d’installation.</p>
-        </details>
-        <details>
-          <summary>Vous promettez combien de chiffre d’affaires ?</summary>
-          <p>Aucun chiffre. C’est ce qui nous sépare des formations : nous livrons des outils concrets et une méthode, vous les utilisez dès le premier jour.</p>
-        </details>
-        <details>
-          <summary>Je suis en Côte d’Ivoire, ça fonctionne aussi ?</summary>
-          <p>Oui. Anza est pensé pour la France et la Côte d’Ivoire, avec des prix adaptés à chaque marché. Les conseils de facturation concernent les activités déclarées en France.</p>
-        </details>
-        <details>
-          <summary>Je peux changer de formule plus tard ?</summary>
-          <p>Oui. Les formules se suivent : vous commencez avec le Stand, vous passez à la Boutique ou au Magasin quand votre activité grandit.</p>
-        </details>
-        <details>
-          <summary>Anza s’occupe de mes factures ?</summary>
-          <p>Non. En France, la facturation passe par des plateformes agréées par l’État, et Anza n’en est pas une. Nous vous conseillons sur le choix de votre plateforme, vous aidons à bien démarrer et faisons le point avec vous sur vos factures, vos relances de paiement et vos seuils.</p>
-        </details>
-        <details>
-          <summary>Mes données restent à moi ?</summary>
-          <p>Oui. Vos clients, vos chiffres et vos contenus vous appartiennent. Vous pouvez les exporter à tout moment en CSV ou en PDF.</p>
-        </details>
+        <details><summary data-i18n="fq1.q">En combien de temps tout est prêt ?</summary><p data-i18n="fq1.a">L’entretien avec Nia prend une vingtaine de minutes. Votre espace arrive rempli le lendemain : CRM avec vos prestations, devis, charte, bio et calendrier de 4 semaines.</p></details><details><summary data-i18n="fq2.q">Qui est Nia ?</summary><p data-i18n="fq2.a">Nia est l’agent de brand management d’Anza : une intelligence artificielle formée à la méthode SAUTI, présentée comme une brand manager pour que l’échange soit naturel. Elle pose les questions, trouve votre ton et prépare vos contenus. Vous savez toujours que vous parlez à une IA, et l’équipe humaine reste joignable.</p></details><details><summary data-i18n="fq3.q">Pourquoi le CRM coûte si peu ?</summary><p data-i18n="fq3.a">Parce qu’il fait partie d’Anza. Vous ne payez pas un abonnement par utilisateur pour un logiciel vide : vous payez une fois pour un outil complet, déjà rempli avec votre activité.</p></details><details><summary data-i18n="fq4.q">Ça fonctionne dans mon pays ?</summary><p data-i18n="fq4.a">Oui. Anza s’utilise partout dans le monde et la page est disponible en plusieurs langues. Les conseils de facturation concernent la France ; ailleurs, nous vous orientons vers les solutions de votre pays.</p></details><details><summary data-i18n="fq5.q">Anza s’occupe de mes factures ?</summary><p data-i18n="fq5.a">Non. En France, la facturation passe par des plateformes agréées par l’État, et Anza n’en est pas une. Nous vous conseillons sur le choix de votre plateforme et faisons le point avec vous sur vos factures et vos seuils.</p></details><details><summary data-i18n="fq6.q">Vous promettez combien de clients ?</summary><p data-i18n="fq6.a">Aucun chiffre. Nous livrons des outils concrets, un CRM et une méthode. Les résultats dépendent de votre activité et de votre régularité.</p></details><details><summary data-i18n="fq7.q">Je peux changer de formule plus tard ?</summary><p data-i18n="fq7.a">Oui. Vous commencez avec le Stand et passez à la Boutique ou au Magasin quand votre activité grandit.</p></details><details><summary data-i18n="fq8.q">Mes données restent à moi ?</summary><p data-i18n="fq8.a">Oui. Vos clients, vos chiffres et vos contenus vous appartiennent et s’exportent à tout moment. Leur traitement respecte le RGPD : voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p></details>
       </div>
+      <p class="faq-more reveal"><span data-i18n="faq.more">Une autre question ? Écrivez nous à</span> <a href="mailto:contact@agencysauti.com">contact@agencysauti.com</a></p>
     </div>
   </section>
 
-  <section class="sec blue-bg final" data-nav="light" aria-labelledby="final-t">
+  <section class="sec blue-bg final" data-nav="light" aria-labelledby="fin-t">
     <div class="wrap reveal">
-      <p class="label">Prochaine étape</p>
-      <h2 id="final-t">Lancez votre activité ce weekend.</h2>
-      <p>Choisissez votre formule, remplissez le questionnaire, et retrouvez votre activité prête à tourner.</p>
+      <p class="label" data-i18n="fin.label">Prochaine étape</p>
+      <h2 id="fin-t" data-i18n="fin.h2">Vos prochains clients vous attendent.</h2>
+      <p data-i18n="fin.p">Choisissez votre formule ce soir, faites l’entretien avec Nia demain, et commencez à vendre la semaine prochaine.</p>
       <div class="hero-actions">
-        <a class="btn ink" href="#formules">Choisir ma formule</a>
-        <a class="more" href="mailto:contact@agencysauti.com?subject=Anza%2C%20une%20question">Poser une question</a>
+        <a class="btn ink" href="#formules" data-i18n="nav.cta">Choisir ma formule</a>
+        <a class="more" href="mailto:contact@agencysauti.com?subject=Anza%2C%20une%20question" data-i18n-href="mail.q" data-i18n="fin.q">Poser une question</a>
       </div>
     </div>
   </section>
 
 </main>
-
 <footer class="foot" data-nav="dark">
   <div class="wrap">
     <div class="foot-top">
-      <div class="foot-brand"><span class="wordmark">anza</span><p>Un projet commun de SAUTI et SC Project.</p></div>
-      <div class="partners" aria-label="Partenaires"><img class="p-sauti" src="logo-cream.png" width="565" height="155" alt="SAUTI" loading="lazy"><span aria-hidden="true">×</span><img class="p-sc" src="logo-scproject.png" width="253" height="259" alt="SC Project" loading="lazy"></div>
+      <div class="foot-brand"><a class="foot-logo" href="#top" aria-label="Anza, haut de page" data-i18n-aria-label="home.aria"><svg width="72" height="72" viewBox="56 50 288 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="ftt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7EA3FF"/><stop offset="0.5" stop-color="#3463D9"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient>
+<linearGradient id="ftg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.14"/></linearGradient>
+<filter id="ftb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 180)" fill="#0B1846"></rect>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 170)" fill="#1E3A8A"></rect>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 126)" fill="#9FB8F0" opacity="0.4"></rect>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 116)" fill="url(#ftg)" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="2"></rect>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 72)" fill="#14286B"></rect>
+<rect width="160" height="160" rx="36" transform="matrix(0.866 0.5 -0.866 0.5 200 62)" fill="url(#ftt)"></rect>
+<g transform="matrix(0.866 0.5 -0.866 0.5 200 62)"><text x="76" y="118" text-anchor="middle" font-family="Inter" font-size="120" font-weight="800" fill="#FFFFFF" >a</text><circle cx="124" cy="40" r="11" fill="#FFFFFF"></circle></g>
+</svg><span class="wordmark">anza</span></a><p data-i18n="ft.desc">Un projet commun de SAUTI et SC Project.</p></div>
+      <div class="partners" role="group" aria-label="Partenaires" data-i18n-aria-label="partners"><img class="p-sauti" src="logo-cream.png" width="565" height="155" alt="SAUTI" loading="lazy"><span aria-hidden="true">×</span><img class="p-sc" src="logo-scproject.png" width="253" height="259" alt="SC Project" loading="lazy"></div>
     </div>
     <div class="foot-mid">
-      <div class="foot-links"><a href="#pack">Les outils</a><a href="#formules">Formules</a><a href="#questions">Questions</a><a href="mailto:contact@agencysauti.com">contact@agencysauti.com</a></div>
+      <div class="foot-links"><a href="#crm" data-i18n="nav.crm">Le CRM</a><a href="#nia" data-i18n="nav.nia">Nia</a><a href="#formules" data-i18n="nav.plans">Formules</a><a href="#questions" data-i18n="nav.faq">Questions</a><a href="mailto:contact@agencysauti.com">contact@agencysauti.com</a></div>
+      <label class="lang foot-lang"><span class="sr" data-i18n="lang.label">Langue</span><select data-lang-select aria-label="Langue" data-i18n-aria-label="lang.label"><option value="fr">Français</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option><option value="de">Deutsch</option></select></label>
     </div>
-    <div class="foot-bot"><span>© <span class="year">2026</span> Anza. Un projet SAUTI et SC Project.</span><span>Paris et Abidjan</span></div>
+    <div class="foot-bot">
+      <span>© <span class="year">2026</span> Anza. <span data-i18n="ft.copy">Un projet SAUTI et SC Project.</span></span>
+      <nav class="legal-links" aria-label="Mentions légales" data-i18n-aria-label="ft.legal"><a href="confidentialite.html" data-i18n="ft.privacy">Confidentialité</a><a href="mentions-legales.html" data-i18n="ft.legal">Mentions légales</a><a href="cookies.html" data-i18n="ft.cookies">Cookies</a></nav>
+      <span data-i18n="ft.world">Disponible partout dans le monde</span>
+    </div>
   </div>
 </footer>
 <script src="script.js" defer></script>
