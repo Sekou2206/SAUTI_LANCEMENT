@@ -1,6 +1,6 @@
-# Pack Lancement, par SAUTI
+# Anza
 
-Page de vente du Pack Lancement, à l'identité SAUTI (palette #ff4328, #fffefa, #000000). Une seule page, aucun outil de build.
+Page de vente d'Anza, un projet commun de SAUTI et SC Project. Palette bleu nuit : #0A1020 (nuit), #1E3A8A (bleu obscur), #2563EB (boutons sur fond sombre), #F6F8FC (fond clair). Une seule page, aucun outil de build.
 
 ## Lancer en local
 
@@ -30,8 +30,9 @@ Les boutons de commande ouvrent pour l'instant un e-mail vers contact@agencysaut
 | index.html | La page de vente |
 | style.css | Styles |
 | script.js | Menu mobile, couleur de la barre selon le fond, onglets des captures, apparitions au scroll |
-| logo-dark.png, logo-cream.png | Logo SAUTI pour fond clair et fond sombre |
+| logo-cream.png | Logo SAUTI, en pied de page |
+| logo-scproject.png | Logo SC Project, en pied de page |
 | inter-*.woff2 | Police Inter (SF Pro est utilisée sur Mac et iPhone) |
-| favicon.png, apple-touch-icon.png | Icônes |
-| outil-*.webp | Captures des outils (exemple fictif) affichées dans les onglets « Dans l’outil » et le parcours |
-| agent-*.webp | Captures de l’agent personal branding : entretien de départ, question de la semaine, journal |
+| favicon.png, apple-touch-icon.png | Icônes Anza |
+| outil-*.webp | Captures des outils (exemple fictif), en bleu nuit clair et sombre en alternance |
+| agent-*.webp | Captures de l'agent personal branding : entretien de départ, question de la semaine, journal |
