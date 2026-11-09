@@ -12,7 +12,7 @@ Un projet commun de SAUTI et SC Project. Site statique à plat pour GitHub Pages
 
 ## Mise en ligne
 GitHub Pages, branche main, dossier racine.
-Si l'adresse du site n'est pas https://sekou2206.github.io/SAUTI_LANCEMENT/, remplacer cette adresse dans index.html (balises og:url et og:image).
+Si l'adresse du site n'est pas https://anza.website/, remplacer cette adresse dans index.html (balises og:url et og:image).
 
 ## RGPD
 Aucun cookie, aucun traceur, aucune police externe : pas de bandeau nécessaire.
