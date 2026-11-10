@@ -509,3 +509,4 @@ ul,ol{padding:0;list-style:none}
 .plan.featured .kind{color:#1E3A8A}
 .kind.hi{background:#2563EB;border-color:#2563EB;color:#fff;opacity:1}
 .plan:last-child{border-color:#2563EB;box-shadow:0 0 0 1px #2563EB inset}
+.plogo{display:inline-flex;transition:opacity .2s}.plogo:hover{opacity:.75}
